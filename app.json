@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "AmatNow Beta",
+    "slug": "amatnow",
+    "version": "1.0.1",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.amatNow.Beta",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBJLRoEgulUxvcnTeUYCXJwQCEfv8LvfGg"
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "75255a4e-34a0-4b1d-9857-8eb41274aa17"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.amatNow.Beta",
+      "buildNumber": "2",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBJLRoEgulUxvcnTeUYCXJwQCEfv8LvfGg"
+      }
+    },
+    "scheme": "amatnow"
+  }
+}
